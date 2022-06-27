@@ -1,10 +1,6 @@
-
+import logo from './logo.svg';
 import './App.css';
 import { FiSettings } from "react-icons/fi";
-import client from "./client_axios"
-import { useEffect, useState } from 'react';
-
-
 
 const DATASAMPLE= [
 {
@@ -45,7 +41,6 @@ const DATASAMPLE= [
 ]
 
 function App() {
-
   return (
     <div> 
       <header className="h-[10vh] bg-[#fca5a5]">
